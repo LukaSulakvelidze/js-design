@@ -20,7 +20,7 @@ container1_text_cont.style.display = "flex";
 container1_text_cont.style.flexDirection = "column";
 container1_text_cont.style.alignItems = "center";
 container1_text_cont.style.gap = "40px";
-container1_text_cont.style.width = "610px";
+container1_text_cont.style.width = "47%";
 
 // welcome text
 const welcome = document.createElement("h5");
@@ -50,6 +50,7 @@ header_paragraph.style.fontSize = "20px";
 header_paragraph.style.fontWeight = "400";
 header_paragraph.style.textAlign = "center";
 header_paragraph.style.lineHeight = "30px";
+header_paragraph.style.width = "80%";
 header_paragraph.style.color = "white";
 
 // button.div
@@ -64,7 +65,7 @@ button_cont.appendChild(get_quote_button);
 get_quote_button.textContent = "Get Quote Now";
 get_quote_button.style.borderRadius = "5px";
 get_quote_button.style.border = "none";
-get_quote_button.style.padding = "15px 40px";
+get_quote_button.style.padding = "15px 37px";
 get_quote_button.style.width = "193px";
 get_quote_button.style.height = "52px";
 get_quote_button.style.fontSize = "14px";
@@ -80,7 +81,7 @@ button_cont.appendChild(learn_more);
 learn_more.textContent = "Learn More";
 learn_more.style.borderRadius = "5px";
 learn_more.style.border = "solid 1px #23A6F0";
-learn_more.style.padding = "15px 40px";
+learn_more.style.padding = "14px 40px";
 learn_more.style.height = "52px";
 learn_more.style.fontSize = "14px";
 learn_more.style.fontWeight = "700";
@@ -89,12 +90,12 @@ learn_more.style.lineHeight = "22px";
 learn_more.style.color = "#23A6F0";
 learn_more.style.background = "transparent";
 
-// card container
-// export
+// card container export
 export const container1_card_cont = document.createElement("div");
 container1.appendChild(container1_card_cont);
 container1_card_cont.style.display = "flex";
-container1_card_cont.style.gap = "30px";
+container1_card_cont.style.justifyContent = "center";
+container1_card_cont.style.gap = "2%";
 
 import { Card } from "./style.js";
 
@@ -202,18 +203,19 @@ container2_text_cont_paragraph_second.style.color = "#737373";
 const form = document.createElement("form");
 container2.appendChild(form);
 form.style.position = "relative";
+form.style.width = "79.8%";
 
 // input
 const input = document.createElement("input");
 form.appendChild(input);
 input.placeholder = "Your Email";
-input.style.width = "688px";
+input.style.width = "100%";
 input.style.height = "58px";
 input.style.padding = "15px 20px";
 input.style.outline = "none";
 input.style.borderRadius = "5px";
 input.style.border = "1px solid #E6E6E6";
-input.style.color = "#737373"
+input.style.color = "#737373";
 input.style.background = "#F9F9F9";
 
 // subscribe button
@@ -231,5 +233,5 @@ subscribe.style.fontSize = "14px";
 subscribe.style.fontFamily = "Montserrat";
 subscribe.style.fontWeight = "400";
 subscribe.style.lineHeight = "28px";
-subscribe.style.color = "white"
+subscribe.style.color = "white";
 subscribe.style.background = "#23A6F0";

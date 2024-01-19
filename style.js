@@ -14,7 +14,7 @@ export function Card(
   card.style.display = "flex";
   card.style.flexDirection = "column";
   card.style.gap = "20px";
-  card.style.width = "328px";
+  card.style.width = "24.2%";
   card.style.padding = "35px 40px";
   card.style.backgroundColor = backgroundColor;
 
